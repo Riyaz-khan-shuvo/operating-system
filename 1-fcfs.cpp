@@ -9,7 +9,6 @@ int main()
     printf("\nEnter Process Burst Time\n");
     for (i = 0; i < n; i++)
     {
-
         printf("P[%d]:", i + 1);
         scanf("%d", &bt[i]);
     }
@@ -42,3 +41,4 @@ int main()
     printf("\nAverage Turnaround Time: %f ", avtat);
     return 0;
 }
+
